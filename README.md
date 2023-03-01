@@ -1,13 +1,4 @@
 ---
-marp: true
-theme: gaia
-_class: lead
-paginate: true 
-backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
-size: 16:9
-
----
 # GitOpsifying Cloud Infra with Crossplane
 ---
 ##### About Me
@@ -61,26 +52,22 @@ Central control plane | (Crossplane)
 
 Kubernetes provides a platform for deploying, scaling, and managing containerized applications, making it easier to manage infrastructure as code.
 
-![bg left:10% 80%](https://kubernetes.io/images/favicon.png)
 
 ---
 # Argo CD
 
  Argo CD is a GitOps-based continuous delivery tool that automates the deployment of applications to Kubernetes clusters, helping to ensure that the desired state of the infrastructure is always in sync with the state described in Git.
 
-![bg left:10% 80%](https://cncf-branding.netlify.app/img/projects/argo/stacked/color/argo-stacked-color.png)
+
 
 ---
 # Crossplane
  Crossplane provides a unified control plane that makes it easier to manage multiple cloud resources using GitOps principles, by allowing administrators to manage infrastructure as code.
 
-![bg left:10% 80%](https://cncf-branding.netlify.app/img/projects/crossplane/icon/color/crossplane-icon-color.png)
 
 ---
 By combining these tools, it becomes possible to achieve true GitOps for both infrastructure and applications, reducing complexity and minimizing the need to use multiple tools and languages.
-![bg right:50% 70%](https://cncf-branding.netlify.app/img/projects/crossplane/icon/color/crossplane-icon-color.png)
-![bg right:50% 70%](https://cncf-branding.netlify.app/img/projects/argo/stacked/color/argo-stacked-color.png)
-![bg right:50% 70%](https://kubernetes.io/images/favicon.png)
+
 
 ---
 # Solution Diagram  
